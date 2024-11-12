@@ -7,8 +7,8 @@ import BottomBar from './bottomsection';
 import Top_section from './top_section';
 import Btm_section from './featured_Tut';
 import Mid_section2 from './mid_section2';
-import footer from './Footer';
 import CardList2 from './MyTutorial';
+import Footer from './Footer';
 
 function App() {
   return (
@@ -21,6 +21,7 @@ function App() {
       <CardList2/>
       <Btm_section/>
       <Mid_section2/>
+      <Footer/>
       <BottomBar/>
     </div>
   );
